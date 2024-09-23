@@ -1,0 +1,103 @@
+body {
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5)),url('b2.png');
+    background-position: center;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo {
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+.container {
+    border: 2px solid transparent;
+    border-radius: 1rem;
+    max-width: 955px;
+    padding:10px;
+    height: 80vh;
+    margin: auto;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    background-color:rgba(0, 0, 0, 0.649); /* Semi-transparent white */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.count{
+    position: fixed;
+    right:15%;
+    top:3%;
+}
+
+.message {
+    background-color:#62c365; /* Soft red */
+    max-width: fit-content;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin: 17px 10px;
+    border: transparent;
+    
+    color: #fff; /* White text */
+}
+
+.left {
+    float: left;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    clear: both;
+}
+
+.right {
+    float: right;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    clear: both;
+}
+
+#send-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+}
+
+#messageInp {
+    width: 90%;
+    background-color: rgb(33, 31, 31);
+    padding:50px;
+    font-size: large;
+    border: none;
+    border-radius: 6px;
+    height: 34px;
+    padding: 0 10px;
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: #62c365; /* Green background */
+    color: #fff; /* White text */
+    margin-left:10px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.btn:hover{
+    background-color: #45A049; /* Darker green */
+    width:50px;
+    height:50px;
+}
+
+
